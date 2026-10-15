@@ -1,0 +1,16 @@
+{
+  "name": "you-are-heard-art-expression",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Moderated art submission and community gallery for You Are Heard",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "multer": "^2.0.0"
+  }
+}
